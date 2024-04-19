@@ -27,3 +27,23 @@ RTL to GDS|| Implementation of a Digital System supporting Read, Write, Low-Powe
 - 𝘿𝙁𝙏 𝙎𝙘𝙖𝙣 𝘾𝙝𝙖𝙞𝙣𝙨 𝙄𝙣𝙨𝙚𝙧𝙩𝙞𝙤𝙣 𝙖𝙣𝙙 𝙋𝙤𝙨𝙩-𝘿𝙁𝙏 𝙁𝙤𝙧𝙢𝙖𝙡 𝙑𝙚𝙧𝙞𝙛𝙞𝙘𝙖𝙩𝙞𝙤𝙣 Using *Synopsys Formality* Tool. 
 - 𝘼𝙎𝙄𝘾 𝙋𝙝𝙮𝙨𝙞𝙘𝙖𝙡 𝙄𝙢𝙥𝙡𝙚𝙢𝙚𝙣𝙩𝙖𝙩𝙞𝙤𝙣 𝙖𝙣𝙙 𝙂𝘿𝙎 𝙁𝙞𝙡𝙚 𝙂𝙚𝙣𝙚𝙧𝙖𝙩𝙞𝙤𝙣 Using *Cadence Innovus* Tool. 
 - 𝘼𝙎𝙄𝘾 𝙋𝙝𝙮𝙨𝙞𝙘𝙖𝙡 𝙋𝙤𝙨𝙩-𝙇𝙖𝙮𝙤𝙪𝙩 𝙁𝙪𝙣𝙘𝙩𝙞𝙤𝙣𝙖𝙡 𝙑𝙚𝙧𝙞𝙛𝙞𝙘𝙖𝙩𝙞𝙤𝙣 Using Gate Level Simulations.
+
+
+![image](https://github.com/mohos455/ASIC-Design-of-Low-Power-Configurable-Multi-Clock-Digital-System-With-UART-Transceiver/assets/106884579/0fdafa94-aa3a-41c5-9600-ea9615b7f77f)
+
+
+### Project phases: -
+-	RTL Design from Scratch of system blocks (ALU, Register File, Synchronous FIFO, Integer Clock Divider, Clock Gating, Synchronizers, Main Controller, UART TX, UART RX).
+- Integrate and verify functionality through self-checking testbench. 
+- Constraining the system using synthesis TCL scripts.
+- 	Synthesize and optimize the design using design compiler tool.
+- Analyze Timing paths and fix setup and hold violations.
+- 	Verify Functionality equivalence using Formality tool
+- Physical implementation of the system passing through ASIC flow phases and generate the GDS File.
+- Verify functionality post-layout considering the actual delays. 
+
+### EDA Tools used
+- ModelSim
+- design compiler 
+- formality 
+- innovus 
